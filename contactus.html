@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo1.jpg">
+    <style>
+      h1{
+          margin-top: 30px;
+          margin-left:574px;
+          color:black;
+          font-size:60px;
+          font-family:Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+      p{
+        margin-left:395px;
+        font-family:Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 20px;
+      }
+      .route1{
+          margin-left: 110px;
+          margin-top: 29PX;
+          font-size: 25px;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          font-style: italic;
+          color: black;
+      }
+      .call{
+          margin-left:550px;
+          margin-top:-53px;
+          font-size: 25px;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          font-style: italic;
+          color: black;
+      }
+      .mail{
+          margin-left: 1090px;
+          margin-top: -53PX;
+          font-size: 25px;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          font-style: italic;
+          color: black;
+      }
+      .login-box{
+        margin-left: 395px;
+        margin-top:40px;
+      }
+      .route{
+        margin-left:146px;
+        margin-top: 40px;
+      }
+      .phone{
+        margin-left:410px;
+        margin-top: 40px;
+      }
+      .letter{
+        margin-left:432px;
+        margin-top: 40px;
+      }
+      
+  </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+       </button>
+       <a class="navbar-brand" href="home.php">
+         <img src="images/logo1.jpg" width="50" height="50" alt="Logo not found">
+       </a>
+       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a class="navbar-brand" href="home.php">Household Solutions</a>
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item ">
+            <a class="nav-link" href="home.php">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutus.html">About</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="contactus.html">Contact Us</a>
+          </li>
+        </ul>
+          <a href="admin_login.html" class="btn btn-outline-success my-2 my-sm-0" role="button">Admin</a>
+      </div>
+    </nav>
+    <h1>Contact Us</h1>
+    <p>Use this form to drop us your experinece and any issues related the services.</p>
+    <div class="login-box">
+     <div class="row"> 
+       <div class="col-md-8 login-mid">
+       <form method="POST" action="contactus.php">
+          <div class="form-group">
+           <label>Name</label>
+            <input type="text" name="name" class="form-control" required>
+          </div>
+          <div class="form-group">
+            <label>Email id</label>
+            <input type="text" name="email" class="form-control" required>
+          </div>
+          <div class="form-group">
+            <label>Mobile Number</label>
+            <input type="text" name="mobile" class="form-control" required>
+          </div>
+          <div class="form-group">
+            <label>Message</label>
+            <textarea class="form-control"  rows="3" name="message"></textarea>
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </form>
+  
+       </div>
+     </div> 
+    </div>
+      <img src="images/route.png" width="100" height="100" alt="Logo not found" class="route">
+      <img src="images/phone-call.png" width="100" height="100" alt="Logo not found" class="phone">
+      <img src="images/letter.png" width="100" height="100" alt="Logo not found" class="letter">
+      <p class="route1">Tenali,Guntur,A.P .</p>
+      <p class="call">+919490605000,+917032065071</p>
+      <p class="mail">sushanthrao2001@gmail.com</p>
+    </body>  
+</html>

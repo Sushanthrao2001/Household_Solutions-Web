@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo1.jpg">
+    <style>
+        .login-mid{
+            max-width: 800px;
+            float: none;
+            margin: 250px auto;
+            margin-left: 297px;
+        }
+    </style>
+    <script>
+        function check(){
+            if(document.admin.username.value == "sushanthrao2001@gmail.com"&&document.admin.password.value == "admin@123"){
+                location.href="admin_panel.html";
+            }else{
+                alert("The credentials were not matched");
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+
+        <div class="login-box">
+    
+         <div class="row"> 
+           <div class="col-md-6 login-mid">
+    
+             <h2>Household Solutions</h2>
+             <h5 style="font-family:Geneva,Verdana, sans-serif">Admin Login</h5>
+             <form name="admin">
+             <div class="form-group" >
+               <label>Username</label>
+               <input type="email" name="username" class="form-control" required>
+               </div>
+             <div class="form-group">
+               <label>Password</label>
+               <input type="password" name="password" class="form-control" required>
+             </div>
+               <button type="reset" class="btn btn-primary" onclick="check()">Login</button>
+             </form>
+             <h7 style="margin-left: 397px;">Back to  <a href="home.php">Home Page.</a></h7>
+          </div>
+          </div>
+                  
+        </div>
+    
+      </div>
+</body>
+</html>
