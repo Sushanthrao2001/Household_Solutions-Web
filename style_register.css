@@ -1,7 +1,7 @@
 body{
     background-image:url(Backgrounds/wallpaperflare.com_wallpaper\(6\).jpg);
     background-position: center;
-    background-size:auto;
+    background-size:cover;
 }
 .login-mid{
    max-width: 800px;
