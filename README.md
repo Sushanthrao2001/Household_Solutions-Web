@@ -61,8 +61,20 @@
  
  <img src="https://github.com/Sushanthrao2001/Household_Solutions-Web/blob/master/Screenshots/admin_login.jpg">
  <img src="https://github.com/Sushanthrao2001/Household_Solutions-Web/blob/master/Screenshots/admin_adding%20employee.jpeg">
-  <img src="https://github.com/Sushanthrao2001/Household_Solutions-Web/blob/master/Screenshots/admin_view%20Employees.jpeg">
+ <img src="https://github.com/Sushanthrao2001/Household_Solutions-Web/blob/master/Screenshots/admin_view%20Employees.jpeg">
  <img src="https://github.com/Sushanthrao2001/Household_Solutions-Web/blob/master/Screenshots/admin_update%20employee.jpeg">
+ 
+ <p>&nbsp;</p>
+
+## 👨‍🚀 Show your support
+ Give a ⭐️ if this project helped you!<br/>
+ If you have any issues or faces any bugs while running feel free to tag me in issues or email me sushanthrao2001@gmail.com!
+
+----
+Created by <a href="https://github.com/Sushanthrao2001">Sushanth.</a>
+
+Last edited on: 26-05-2021.
+
 
  
  
