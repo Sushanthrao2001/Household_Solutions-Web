@@ -35,8 +35,28 @@
 6. In phpmyadmin page, create a new database from the left panel and name it as 'household solutions'.
 7. Open a new tab and type 'localhost/foldername/login.html' in the url of your browser.
 
+• NOTE: The data used in the project is test data so the sql file is not included in the project.
+
 <p>&nbsp;</p>
 
 ## Getting into the project
  ### Here are the screenshots of the project
+ ## • User
+ 
+ <img src="https://github.com/Sushanthrao2001/Household_Solutions-Web/blob/master/Screenshots/login%20Screen.jpg">
+ <img src="https://github.com/Sushanthrao2001/Household_Solutions-Web/blob/master/Screenshots/Registration%20Screen.jpg">
+ <img src="https://github.com/Sushanthrao2001/Household_Solutions-Web/blob/master/Screenshots/home.jpeg">
+ <img src="https://github.com/Sushanthrao2001/Household_Solutions-Web/blob/master/Screenshots/About.jpeg">
+ <img src="https://github.com/Sushanthrao2001/Household_Solutions-Web/blob/master/Screenshots/Contact.jpeg">
+ <img src="https://github.com/Sushanthrao2001/Household_Solutions-Web/blob/master/Screenshots/home%202.jpeg">
+ 
+ ## • Admin
+ 
+ <img src="https://github.com/Sushanthrao2001/Household_Solutions-Web/blob/master/Screenshots/admin_login.jpg">
+ <img src="https://github.com/Sushanthrao2001/Household_Solutions-Web/blob/master/Screenshots/admin_adding%20employee.jpeg">
+  <img src="https://github.com/Sushanthrao2001/Household_Solutions-Web/blob/master/Screenshots/admin_view%20Employees.jpeg">
+ <img src="https://github.com/Sushanthrao2001/Household_Solutions-Web/blob/master/Screenshots/admin_update%20employee.jpeg">
 
+ 
+ 
+ 
