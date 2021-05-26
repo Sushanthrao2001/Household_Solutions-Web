@@ -35,12 +35,19 @@
 6. In phpmyadmin page, create a new database from the left panel and name it as 'household solutions'.
 7. Open a new tab and type 'localhost/foldername/login.html' in the url of your browser.
 
-• NOTE: The data used in the project is test data so the sql file is not included in the project.
+• NOTE: The data used in the project is test data so the sql file is not included in the repository.
 
 <p>&nbsp;</p>
 
 ## Getting into the project
  ### Here are the screenshots of the project
+ 
+ ## • Database Structure
+ <img src="https://github.com/Sushanthrao2001/Household_Solutions-Web/blob/master/Screenshots/databases.jpeg">
+ <img src="https://github.com/Sushanthrao2001/Household_Solutions-Web/blob/master/Screenshots/Feedback%20form.jpeg">
+ <img src="https://github.com/Sushanthrao2001/Household_Solutions-Web/blob/master/Screenshots/employee%20db.jpeg">
+ <img src="https://github.com/Sushanthrao2001/Household_Solutions-Web/blob/master/Screenshots/user%20database.jpeg">
+ 
  ## • User
  
  <img src="https://github.com/Sushanthrao2001/Household_Solutions-Web/blob/master/Screenshots/login%20Screen.jpg">
