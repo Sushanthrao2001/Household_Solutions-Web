@@ -34,3 +34,9 @@
 5. Open your web browser and type 'localhost/phpmyadmin'
 6. In phpmyadmin page, create a new database from the left panel and name it as 'household solutions'.
 7. Open a new tab and type 'localhost/foldername/login.html' in the url of your browser.
+
+<p>&nbsp;</p>
+
+## Getting into the project
+ ### Here are the screenshots of the project
+
