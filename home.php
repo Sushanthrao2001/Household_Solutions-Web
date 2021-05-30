@@ -1,3 +1,26 @@
+<?php
+
+$con=mysqli_connect('localhost','root','Sushanth.6295');
+     
+mysqli_select_db($con,'household solutions');
+
+  if ($_GET['u']) 
+  { 
+    $u=$_GET['u'];
+
+    $query=" select * from users_data where Email_id='$u'";
+    $data=mysqli_query($con,$query);
+    if($data){
+      while($row= mysqli_fetch_array($data)){
+        $n=$row['Name'];
+      }
+    }
+  }else{
+    echo '<script>alert("You are not logged in!! Directing you to login page")</script>';
+    header("refresh:0;url=login.html");
+  } 
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
