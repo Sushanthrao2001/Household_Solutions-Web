@@ -1,3 +1,26 @@
+<?php
+
+$con=mysqli_connect('localhost','root','Sushanth.6295');
+     
+mysqli_select_db($con,'household solutions');
+
+  if ($_GET['u']) 
+  { 
+    $u=$_GET['u'];
+
+    $query=" select * from users_data where Email_id='$u'";
+    $data=mysqli_query($con,$query);
+    if($data){
+      while($row= mysqli_fetch_array($data)){
+        $n=$row['Name'];
+      }
+    }
+  }else{
+    echo '<script>alert("You are not logged in!! Directing you to login page")</script>';
+    header("refresh:0;url=login.html");
+  } 
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -43,6 +66,8 @@
         <a class="nav-link" href="contactus.html">Contact Us</a>
       </li>
     </ul>
+    <h4 style="padding-top:5px; padding-right:17px"><?php echo'Welcome '.$n.','?></h4>
+    <a href="login.html" class="btn btn-outline-danger my-2 my-sm-0" role="button">Log out</a>
     <a href="admin_login.html" class="btn btn-outline-success my-2 my-sm-0" role="button">Admin</a>
     </div>
 </nav>
@@ -68,11 +93,7 @@
        </thead>
        <tbody>
        <?php
-            $con=mysqli_connect('localhost','root','Sushanth.6295');
-     
-            mysqli_select_db($con,'household solutions');
-
-
+           
             if(isset($_POST['occupation']))
              {
 
