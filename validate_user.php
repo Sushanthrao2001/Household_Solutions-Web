@@ -19,7 +19,7 @@
   $num=mysqli_num_rows($result);
  
   if($num==1){
-     header("refresh:0;url=home.php");
+     header("refresh:0;url=home.php?u=$username");
    }else{
     echo '<script> alert("Please check your username and password")</script>';
     header("refresh:1;url=login.html");
